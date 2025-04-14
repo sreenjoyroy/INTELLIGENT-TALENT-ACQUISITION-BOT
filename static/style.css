@@ -1,0 +1,109 @@
+/* General Page Styling */
+html, body, [class*="st-"] {
+    color: #000000 !important;
+    font-size: 22px !important;
+    font-family: 'Segoe UI', sans-serif !important;
+}
+/* Image background */
+body {
+    background-image: url("static/82448222_9895435.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/* Title Styling */
+h1 {
+    color: #2c3e50;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+/* Subheaders */
+h2, .stSubheader {
+    color: #34495e;
+    font-weight: 600;
+    margin-top: 1.5rem;
+}
+
+/* Chat Input */
+.stChatInput input {
+    border: 1px solid black;
+    padding: 0.6rem;
+    border-radius: 8px;
+}
+section.main {
+    padding: 1.5rem;
+}
+
+/* Optional: Message bubbles if using streamlit-chat */
+.stChatMessage {
+    font-size: 18px !important;
+    color: #000000 !important;
+}
+h1, h2, h3, h4 {
+    color: #000000 !important;
+}
+
+/* Buttons */
+button[kind="primary"] {
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+button[kind="primary"]:hover {
+    background-color: #27ae60;
+}
+
+/* Info / Success / Warning Boxes */
+.stAlert {
+    border-radius: 12px;
+    padding: 1rem;
+}
+
+.stAlert.info {
+    background-color: #e8f4fd;
+    color: #2c3e50;
+}
+
+.stAlert.success {
+    background-color: #e5f7ee;
+    color: #2e7d32;
+}
+
+.stAlert.warning {
+    background-color: #fff4e5;
+    color: #8a6d3b;
+}
+
+.stAlert.error {
+    background-color: #fdecea;
+    color: #a94442;
+}
+/* Position card styles */
+.position-card {
+    background-color: #F3E8FF;       /* Soft lavender */
+    border-left: 6px solid #D1C4E9;  /* Light purple border */
+    border-radius: 12px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    color: #4A148C;                  /* Deep purple text */
+    font-family: 'Segoe UI', sans-serif;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.position-card:hover{
+    background-color: #EDE7F6;
+    transform: scale(1.01);
+}
+
+.position-card p {
+    margin: 5px 0;
+    color: #000;
+}

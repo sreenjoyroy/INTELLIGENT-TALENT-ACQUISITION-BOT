@@ -1,0 +1,30 @@
+# Core App
+streamlit
+python-dotenv
+
+# Vector DB
+chromadb
+
+# PDF Resume Parsing
+PyMuPDF  # for resume parsing
+pdfminer.six
+
+# LLM & Local Model Inference
+gpt4all
+llama-cpp-python # Optional fallback backend
+
+# CrewAI Agents
+crewai
+langchain
+langchainhub
+langchain-community
+
+# Email Utilities
+sendgrid
+google-auth
+google-auth-oauthlib
+google-api-python-client
+
+# Utils
+requests
+pytz

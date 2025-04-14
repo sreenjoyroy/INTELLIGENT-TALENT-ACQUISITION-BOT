@@ -1,0 +1,29 @@
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore virtual environment
+Sreenjoy/
+
+# Ignore environment/config files
+.env
+.env.*
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore Streamlit’s secrets
+.streamlit/secrets.toml
+
+# Ignore log files
+*.log
+
+# VSCode and JetBrains project settings (optional)
+.vscode/
+.idea/
+
+# Ignore data/output folders if any
+outputs/
+data/
